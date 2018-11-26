@@ -9,5 +9,20 @@
         "name": "Tactical Technology Solutions"
     },
     "items": [
+        {
+            "id": "https://jcaston.github.io/front-page.html",
+            "url": "https://jcaston.github.io/front-page.html",
+            "title": "Front Page",
+            "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat sapien non enim interdum, ac pharetra sapien aliquet. Nunc ut convallis nisi, efficitur vestibulum sem. Donec dapibus mi eu massa sodales, vitae vehicula nunc feugiat. Nullam suscipit mattis egestas. Aenean consectetur quam sit amet congue&hellip;",
+            "content_html": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat sapien non enim interdum, ac pharetra sapien aliquet. Nunc ut convallis nisi, efficitur vestibulum sem. Donec dapibus mi eu massa sodales, vitae vehicula nunc feugiat. Nullam suscipit mattis egestas. Aenean consectetur quam sit amet congue ultricies. Integer quis orci fringilla ante auctor molestie. Donec malesuada metus id mi iaculis pretium.</p>\n<p>Duis et semper tellus, eu luctus nibh. Duis in dui laoreet, porttitor urna vel, maximus tellus. Vivamus at cursus urna. Praesent non dignissim tortor. Mauris aliquam, metus nec condimentum mattis, massa magna dignissim lectus, a feugiat orci est et tellus. Nunc malesuada efficitur justo, id volutpat erat molestie at. Aenean in pharetra urna. Etiam tristique consequat vulputate. Proin ornare sollicitudin lectus id efficitur. Nunc a diam sit amet metus tempus rhoncus. Donec non mattis enim, ac finibus mi.</p>",
+            "image": "https://jcaston.github.io/media/posts/1/img13.jpg",
+            "author": {
+                "name": "Tactical Technology Solutions"
+            },
+            "tags": [
+            ],
+            "date_published": "2018-11-26T01:52:20-05:00",
+            "date_modified": "2018-11-26T01:52:26-05:00"
+        }
     ]
 }

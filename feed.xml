@@ -3,10 +3,33 @@
     <title>Tactical Technology Solutions</title>
     <link href="https://jcaston.github.io/feed.xml" rel="self" />
     <link href="https://jcaston.github.io" />
-    <updated>1969-12-31T19:00:00-05:00</updated>
+    <updated>2018-11-26T01:52:41-05:00</updated>
     <author>
         <name>Tactical Technology Solutions</name>
     </author>
     <id>https://jcaston.github.io</id>
 
+    <entry>
+        <title>Front Page</title>
+        <author>
+            <name>Tactical Technology Solutions</name>
+        </author>
+        <link href="https://jcaston.github.io/front-page.html"/>
+        <id>https://jcaston.github.io/front-page.html</id>
+
+        <updated>2018-11-26T01:52:26-05:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://jcaston.github.io/media/posts/1/img13.jpg" alt="" />
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat sapien non enim interdum, ac pharetra sapien aliquet. Nunc ut convallis nisi, efficitur vestibulum sem. Donec dapibus mi eu massa sodales, vitae vehicula nunc feugiat. Nullam suscipit mattis egestas. Aenean consectetur quam sit amet congue&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://jcaston.github.io/media/posts/1/img13.jpg" alt="" />
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat sapien non enim interdum, ac pharetra sapien aliquet. Nunc ut convallis nisi, efficitur vestibulum sem. Donec dapibus mi eu massa sodales, vitae vehicula nunc feugiat. Nullam suscipit mattis egestas. Aenean consectetur quam sit amet congue ultricies. Integer quis orci fringilla ante auctor molestie. Donec malesuada metus id mi iaculis pretium.</p>
+<p>Duis et semper tellus, eu luctus nibh. Duis in dui laoreet, porttitor urna vel, maximus tellus. Vivamus at cursus urna. Praesent non dignissim tortor. Mauris aliquam, metus nec condimentum mattis, massa magna dignissim lectus, a feugiat orci est et tellus. Nunc malesuada efficitur justo, id volutpat erat molestie at. Aenean in pharetra urna. Etiam tristique consequat vulputate. Proin ornare sollicitudin lectus id efficitur. Nunc a diam sit amet metus tempus rhoncus. Donec non mattis enim, ac finibus mi.</p>
+            ]]>
+        </content>
+    </entry>
 </feed>

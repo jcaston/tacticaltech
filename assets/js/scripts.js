@@ -6,25 +6,49 @@
             $('.js-navbar__toggle').attr('aria-expanded', $('.js-navbar').hasClass('is-opened'));
             return false;
         });
-
         $('.js-navbar a').each(function(i, link) {
             link = $(link);
-
-            link.on('click', function(e) {
+            link.on('touchend', function(e) {
                 if(
                     link.parent().hasClass('has-submenu') &&
-                    $('.js-navbar__toggle').attr('aria-expanded') === 'true' &&
+                    $('.js-navbar').hasClass('is-opened') &&
                     link.parent().attr('aria-expanded') !== 'true'
                 ) {
                     e.preventDefault();
+                    e.stopPropagation();
                     link.parent().attr('aria-expanded', 'true');
                 }
+
+                $('.js-navbar li[aria-expanded="true"]').each(function(i, item) {
+                    if (!$.contains(item, link[0])) {
+                        $(item).attr('aria-expanded', 'false');
+                    }
+                });
             });
         });
     });
 
     // iOS :hover fix
-    document.addEventListener("touchend", function() {}); 
+    document.addEventListener("touchend", function () {});
+
+     // Post image class
+     $(function ($) {
+         var contentImages = $('.post__content').find('img');
+         if(contentImages.length) {
+             var cssClasses = ['post__image--full', 'post__image--wide', 'post__image--left', 'post__image--right', 'post__image--center'];
+             contentImages.each(function(i, img) {
+                 img = $(img);
+                 if(img.parent().prop('tagName') === 'P') {
+                     cssClasses.each(function(i, cssClass) {
+                         if(img.hasClass(cssClass) && !img.parent().hasClass(cssClass)) {
+                             img.removeClass(cssClass);
+                             img.parent().addClass(cssClass);
+                         }
+                     });
+                 }
+             });
+         }
+     });
 
     // Mainmenu improvements
     $(function ($) {
@@ -79,7 +103,6 @@
             }
         }
     });
-
 
     // Sticky menu animation
     $(function ($) {
@@ -157,6 +180,4 @@
             return !!popup;
         }
     });
-
-
 })(jQuery);
